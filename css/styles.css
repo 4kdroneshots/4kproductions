@@ -215,6 +215,15 @@ img { display: block; max-width: 100%; }
   letter-spacing: 0.5px;
 }
 
+.placeholder img,
+.gallery__item img,
+.works-grid__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .placeholder--light .placeholder__label {
   color: #bbb;
 }
@@ -299,7 +308,7 @@ img { display: block; max-width: 100%; }
   background-color: #101010;
   background-image:
     linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.65)),
-    url('../images/hero-bg.jpg');
+    url('../images/image8.JPG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
